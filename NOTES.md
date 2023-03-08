@@ -32,3 +32,17 @@
 ```bash
   save-exact=true
 ```
+
+- Criar arquivo .env + .env.example
+
+#### Instalação dotenv
+
+```bash
+  npm i dotenv
+```
+
+#### Instalação zod
+
+```bash
+  npm i zod
+```
