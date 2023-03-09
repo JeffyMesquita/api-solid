@@ -97,3 +97,21 @@
 ```bash
   npx prisma migrate dev
 ```
+
+#### rodar o docker
+
+```bash
+  docker compose up -d
+```
+
+#### parar o docker
+
+```bash
+  docker compose stop
+```
+
+#### remover o container no docker
+
+```bash
+  docker compose down
+```
