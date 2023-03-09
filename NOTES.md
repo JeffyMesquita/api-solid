@@ -57,6 +57,31 @@
 - Criar arquivo .eslintignore
 - no arquivo tsconfig.json alterar `"baseUrl":"./"`
 - no arquivo tsconfig.json alterar `"paths": {}`
+
 ```bash
   "@/*":["./src/*"]
+```
+
+#### Instalação prisma
+
+```bash
+  npm i prisma -D
+```
+
+#### Iniciar config do prisma
+
+```bash
+  npx prisma init
+```
+
+- gerar banco de dados
+
+```bash
+  npx prisma generate
+```
+
+#### Instalação prisma client
+
+```bash
+  npm i @prisma/client
 ```
