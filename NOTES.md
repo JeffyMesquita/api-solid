@@ -55,3 +55,8 @@
 
 - Criar arquivo .eslintrc.json
 - Criar arquivo .eslintignore
+- no arquivo tsconfig.json alterar `"baseUrl":"./"`
+- no arquivo tsconfig.json alterar `"paths": {}`
+```bash
+  "@/*":["./src/*"]
+```
