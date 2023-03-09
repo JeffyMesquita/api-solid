@@ -46,3 +46,12 @@
 ```bash
   npm i zod
 ```
+
+#### Instalação eslint
+
+```bash
+  npm i eslint @rocketseat/eslint-config -D
+```
+
+- Criar arquivo .eslintrc.json
+- Criar arquivo .eslintignore
