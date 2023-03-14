@@ -115,3 +115,16 @@
 ```bash
   docker compose down
 ```
+
+#### instalação bcryptjs
+
+```bash
+  npm i bcryptjs
+```
+
+#### instalação da tipagem bcryptjs
+
+```bash
+  npm i -D @types/bcryptjs 
+```
+
