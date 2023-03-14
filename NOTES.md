@@ -128,3 +128,29 @@
   npm i -D @types/bcryptjs 
 ```
 
+#### instalação do vitest
+
+```bash
+  npm i vitest vite-tsconfig-paths -D 
+```
+
+- Criar o arquivo vite.config.ts
+
+#### configuração do vitest
+
+```bash
+  import { defineConfig } from 'vitest/config'
+  import tsconfigPaths from 'vite-tsconfig-paths'
+
+  export default defineConfig({
+    plugins: [tsconfigPaths()],
+  })
+```
+
+#### scripts do vitest
+
+```bash
+  "test": "vitest run",
+  "test:watch": "vitest"
+```
+
