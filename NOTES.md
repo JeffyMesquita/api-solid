@@ -162,3 +162,9 @@
   npm i -d @vitest/ui 
 ```
 
+#### instalação do dayjs
+
+```bash
+  npm i dayjs
+```
+
