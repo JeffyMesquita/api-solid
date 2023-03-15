@@ -136,7 +136,7 @@
 
 - Criar o arquivo vite.config.ts
 
-#### configuração do vitest
+#### configuração do vite.config.ts
 
 ```bash
   import { defineConfig } from 'vitest/config'
@@ -153,5 +153,12 @@
   "test": "vitest run",
   "test:watch": "vitest"
   "test:coverage": "vitest run --coverage"
+  "test:ui": "vitest --ui"
+```
+
+#### instalação do vitest UI
+
+```bash
+  npm i -d @vitest/ui 
 ```
 
