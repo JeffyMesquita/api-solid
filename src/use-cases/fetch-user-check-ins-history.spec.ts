@@ -11,12 +11,6 @@ describe('Fetch User Check-in History Use Case', () => {
     sut = new FetchUserCheckInsHistoryUseCase(checkInsRepository)
   })
 
-  const latitude = -20.9398483
-  const longitude = -48.4887321
-
-  const otherLatitude = -20.9398477
-  const otherLongitude = -48.4875392
-
   it('should be able to fetch check-in history', async () => {
     await checkInsRepository.create({
       gym_id: 'gym-01',
