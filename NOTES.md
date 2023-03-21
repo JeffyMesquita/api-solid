@@ -174,5 +174,11 @@
   npm i @fastify/jwt
 ```
 
+#### instalação do npm run all
+
+```bash
+  npm install -D npm-run-all
+```
+
 
 
