@@ -168,3 +168,11 @@
   npm i dayjs
 ```
 
+#### instalação do JWT @fastify
+
+```bash
+  npm i @fastify/jwt
+```
+
+
+
