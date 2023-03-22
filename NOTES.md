@@ -180,5 +180,18 @@
   npm install -D npm-run-all
 ```
 
+#### instalação do supertest
+
+```bash
+  npm i supertest -D
+```
+
+#### instalação da tipagem do supertest
+
+```bash
+  npm i --save-dev @types/supertest
+```
+
+
 
 
