@@ -193,5 +193,10 @@
 ```
 
 
+#### instalação do @fastify/cookie
+
+```bash
+  npm i @fastify/cookie
+```
 
 
